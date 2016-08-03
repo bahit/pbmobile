@@ -29,3 +29,21 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
   box-shadow: none;
   color: #fff;
 }
+
+.bar-content, .bar-side-menu {
+	background-color: #2268cf;
+}
+
+ion-side-menu li .item {
+	background-color: #333c41;
+	border-color: #4F5865;
+	color: #BCC3CF;
+}
+
+ion-side-menu li .item {
+	border-color: #4F5865;
+}
+
+ion-side-menu li.item.item-divider {
+	background-color: #3E4755;
+}
