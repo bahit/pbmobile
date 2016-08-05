@@ -21,10 +21,10 @@ angular.module('mm.addons.jhep')
  *
  * @module mm.addons.calendar
  * @ngdoc service
- * @name $mmaCalendarHandlers
+ * @name $mmaJhepHandlers
  */
-.factory('$mmaJhepHandlers', function($log, $mmaCalendar) {
-    $log = $log.getInstance('$mmaCalendarHandlers');
+.factory('$mmaJhepHandlers', function($log) {
+    $log = $log.getInstance('$mmaJhepHandlers');
 
     var self = {};
 
@@ -45,7 +45,7 @@ angular.module('mm.addons.jhep')
          * @return {Boolean} True if handler is enabled, false otherwise.
          */
         self.isEnabled = function() {
-            return $mmaCalendar.isAvailable();
+            return true;
         };
 
         /**
